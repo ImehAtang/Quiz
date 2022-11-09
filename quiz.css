@@ -63,13 +63,13 @@ h2{
     margin-bottom: 1rem;
     text-decoration: none;
     color: rgb(28, 26, 26);
-    background: linear-gradient(90deg, rgb(18,92,255) 0%, rgb(0,102,255)100%);
+    background: #b46503;
     border-radius: 4px;
 }
 
 .btn:hover{
     cursor: pointer;
-    box-shadow: 0 .4rem 1.4rem 0 rgba(8, 114, 244, 0.6);
+    box-shadow: 0 .4rem 1.4rem 0 #b46503;
     transition: transform 150ms;
     transform: scale(1.03);
 }
@@ -81,7 +81,7 @@ h2{
 }
 
 #highscore-btn{
-    background: linear-gradient(90deg, rgb(225,247,9) 0%, rgb(240,221,6)100%);
+    background: whitesmoke;
 }
 
 #highscore-btn:hover{
@@ -109,7 +109,7 @@ input{
     padding: 1.5rem;
     font-size: 1.8rem;
     border: none;
-    box-shadow: 0 .1rem 1.4rem 0 rgba(86,185,235,.5);
+    box-shadow: 0 .1rem 1.4rem 0 #b46503;
 }
 
 input::placeholder{

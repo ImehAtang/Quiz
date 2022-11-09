@@ -7,14 +7,14 @@ body{
     margin-bottom: 1.4rem;
     width: 100%;
     border-radius: 4px;
-    background: rgb(18, 93, 255);
+    background: #f4a950;
     font-size: 3rem;
     min-width: 80rem;
 }
 
 .choice-container:hover{
     cursor: pointer;
-    box-shadow: 0 .4rem 1.4rem 0 rgba(6, 103, 247, 0.5);
+    box-shadow: 0 .4rem 1.4rem 0 #f4a950;
     transform: scale(1.02);
     transition: transform 100ms;
 }
