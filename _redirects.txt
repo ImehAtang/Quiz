@@ -1,3 +1,2 @@
-# Redirects from what the browser requests to what we serve
-/home              /quiz
+/quiz              /https://funny-beignet-6e3594.netlify.app/
 
