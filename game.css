@@ -4,7 +4,7 @@ body{
 
 .choice-container{
     display: flex;
-    margin-bottom: 1.8rem;
+    margin-bottom: 1.4rem;
     width: 100%;
     border-radius: 4px;
     background: rgb(18, 93, 255);
@@ -20,7 +20,7 @@ body{
 }
 
 .choice-prefix{
-    padding: 2rem 2.5rem;
+    padding: 2rem 2.1rem;
     color: white;
 }
 
@@ -71,6 +71,11 @@ body{
 
 
 @media screen and (max-width:768px) {
+    *{
+        font-size: 55%;
+        overflow-y: scroll;
+    }
+
     .choice-container{
         min-width: 40rem;
     }
